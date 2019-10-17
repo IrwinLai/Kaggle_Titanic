@@ -18,8 +18,7 @@ Basically this problem is about missing value imputation, features engineering a
 
 ----
 ### DATA EXPLORATION
-<center><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81mx1rqycj30gu0guq44.jpg
-" width="45%" height="45%" /><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81myo1v59j30oc0oogm7.jpg" " width="45%" height="45%"  /></center>
+<center><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81mx1rqycj30gu0guq44.jpg" width="45%" height="45%" /><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81myo1v59j30oc0oogm7.jpg" " width="45%" height="45%"  /></center>
 
 There are several missing values, and some features have interesting relationship with 'Survived'. (see details in solution_code.py)
 
@@ -59,8 +58,7 @@ After process missing values, we simply use one hot encoding to treat features '
 - I notice something interesting: there are people with 'Rev' title are all man and they all dead. 'Rev' may be reverend, the man serverd the god. So they probably sacrificed themselves. And 'Rev' can be a meaningful title, other titles I use 'Other' to represent.
 - Also, I find their are 400+ last name in 800+ samples. The people with the same last name probably from the same family, so the one with unique last name may get in ship alone, and it can be a feature.
 
-<center><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81n8vh7txj30co0ho0sx.jpg
-" width="35%" height="35%" /><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81naj53bzj30ew07c74b.jpg" " width="50%" height="50%"  /></center>
+<center><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81n8vh7txj30co0ho0sx.jpg" width="35%" height="35%" /><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81naj53bzj30ew07c74b.jpg" " width="50%" height="50%"  /></center>
 
 #### From 'Ticket' generate two features: T Count, Unit Fare
 - We can see that there are only 681 unique ticket in 891 samples, so many people used the same ticket to get in to the ship, and that can be a useful feature.
@@ -105,8 +103,7 @@ Basically this problem is about missing value imputation, features engineering a
 
 ----
 ### DATA EXPLORATION
-<center><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81mx1rqycj30gu0guq44.jpg
-" width="45%" height="45%" /><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81myo1v59j30oc0oogm7.jpg" " width="45%" height="45%"  /></center>
+<center><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81mx1rqycj30gu0guq44.jpg" width="45%" height="45%" /><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81myo1v59j30oc0oogm7.jpg" " width="45%" height="45%"  /></center>
 
 There are several missing values, and some features have interesting relationship with 'Survived'. (see details in solution_code.py)
 
