@@ -48,9 +48,9 @@ After process missing values, we simply use one hot encoding to treat features '
 - Then, we consider if creat a varible family (= siblings + parents + children). Because the meaning of Sibsp and Parch are similar, and we can just combine them together. The kde photo shows the combination is better.
 - Also, it is better to treat the family as a categorical feature rather than a numerical feature. Because it is hard to say the person with 4 family has something 4 times stronger than a person with 1 'Family'. It is reasonable to think a person with soem 'Family' has some speacial features than a person with no 'Family', like family member would definitely help each other. So I will use bucket to treat the 'Family' have family or not.
 
-<center><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81nd8xp3aj30l60eoglq.jpg" width="28%" height="28%" />
-<img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81ndlp4daj30ks0esmxb.jpg" " width="28%" height="28%"  />
-<img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81ndrwy9xj30km0em74g.jpg" " width="28%" height="28%"  /></center>
+<center><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81nd8xp3aj30l60eoglq.jpg" width="38%" height="38%" />
+<img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81ndlp4daj30ks0esmxb.jpg" " width="38%" height="38%"  />
+<img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81ndrwy9xj30km0em74g.jpg" " width="38%" height="38%"  /></center>
 
 #### Create a feature 'Title' according to 'Name'
 - we can see in name there also a title, like 'Mr',' Miss".
@@ -58,7 +58,7 @@ After process missing values, we simply use one hot encoding to treat features '
 - I notice something interesting: there are people with 'Rev' title are all man and they all dead. 'Rev' may be reverend, the man serverd the god. So they probably sacrificed themselves. And 'Rev' can be a meaningful title, other titles I use 'Other' to represent.
 - Also, I find their are 400+ last name in 800+ samples. The people with the same last name probably from the same family, so the one with unique last name may get in ship alone, and it can be a feature.
 
-<center><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81n8vh7txj30co0ho0sx.jpg" width="40%" height="40%" /><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81naj53bzj30ew07c74b.jpg" " width="40%" height="40%"  /></center>
+<center><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81n8vh7txj30co0ho0sx.jpg" width="30%" height="30%" /><img src ="https://tva1.sinaimg.cn/large/006y8mN6gy1g81naj53bzj30ew07c74b.jpg" " width="30%" height="30%"  /></center>
 
 #### From 'Ticket' generate two features: T Count, Unit Fare
 - We can see that there are only 681 unique ticket in 891 samples, so many people used the same ticket to get in to the ship, and that can be a useful feature.
